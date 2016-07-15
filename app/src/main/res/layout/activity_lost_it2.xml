@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView android:text="LOST ITEM DETAILS" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textIsSelectable="true"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:clickable="false"
+            android:hint="(e.g. iPhone5)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item:"
+            android:id="@+id/textView3"
+            android:textSize="25dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="75dp"
+            android:gravity="center_horizontal"
+            android:selectAllOnFocus="true"
+            android:textIsSelectable="true"
+            android:hint="(e.g. panda sticker on back, black and red case)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Defining Features:"
+            android:id="@+id/textView4"
+            android:textSize="25dp"
+            android:layout_below="@+id/editText"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reward:"
+            android:id="@+id/textView5"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:layout_below="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:textIsSelectable="false" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:textIsSelectable="true"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:hint="(fill if applicable - else leave blank)" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:id="@+id/button"
+            android:layout_below="@+id/editText3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+
+    </RelativeLayout>
+</ScrollView>

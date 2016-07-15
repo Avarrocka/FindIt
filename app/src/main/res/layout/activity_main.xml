@@ -1,0 +1,38 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+
+    android:background="@drawable/home"
+    android:id="@+id/home"
+>
+
+    <Button
+        android:id="@+id/lostitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lost It?"
+        android:width="160dp"
+        android:height="55dp"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp" />
+
+    <Button
+        android:id="@+id/finditbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find It!"
+        android:width="160dp"
+        android:height="55dp"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp" />
+</RelativeLayout>

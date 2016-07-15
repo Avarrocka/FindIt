@@ -1,0 +1,33 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LostIt">
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_marginTop="10dp" android:id="@+id/map" tools:context=".LostIt"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+
+
+
+
+</LinearLayout>
+
+
