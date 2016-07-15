@@ -5,8 +5,11 @@ FindIt is an open-sourced Android Application that works as a crowd-sourced Lost
 Collaborators
 =================================
 GitHub Usernames:
+
 Alextrovert
+
 Umasehs
+
 boddhi
 
 License
